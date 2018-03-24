@@ -17,14 +17,17 @@ h1 {
 }
 ul {
 	list-style: none;
-
+	padding:  0;
 }
 li{
 	display: inline-block;
-	padding: 0 5px;
+	padding: 0 5px 1px 0;
 }
 label {
 	color: #ffffff;
+}
+h2 {
+	margin: 0;
 }
 .centr {
 	width: 986px;
@@ -69,10 +72,23 @@ label {
 }
 .mid {
 	background-color: #e9ebee;
+	padding:  150px;
+	display:  flex;
 }
 .find_akk {
-	padding: 150px;
+	background-color: white;
+	display:  flex;
+	align-items:  center;
+	margin:  0 auto;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
 }
+
+section.find_akk {}
 .find_akk__box {
-	border: 1px solid blue;
+}
+.language {
+	padding-top: 100px;
+	border-bottom: 1px solid #dddfe2;
 }
