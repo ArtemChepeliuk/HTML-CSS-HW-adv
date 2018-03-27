@@ -131,3 +131,18 @@ padding: 16px 80px 30px 80px;
 	padding:  5px;
 	margin: 0 20px;
 }
+
+@media screen and (min-width: 768px) {
+	.login {
+    padding: 5px 5%;
+	}
+	.language {
+    padding: 250px 3% 3px;
+	}
+	.footer_list {
+		padding: 0 3% 0;
+	}
+	.footer_padding {
+		padding: 0 3% 0
+	}
+}
